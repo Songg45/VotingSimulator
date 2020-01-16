@@ -2,10 +2,14 @@
 
 Public Class MainForm
 
-
     Private Sub VoterBuildButton_Click(sender As Object, e As EventArgs) Handles VoterBuildButton.Click
 
         VoterBuild.Show()
+
+        VoterGridView.DataSource = VoterBuild.ExcelData.Tables(0)
+        VoterGridView.Columns(0).AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        VoterGridView.Update()
+        VoterGridView.Refresh()
 
     End Sub
 
@@ -28,4 +32,5 @@ Public Class MainForm
         End If
 
     End Sub
+
 End Class

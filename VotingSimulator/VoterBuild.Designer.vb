@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class VoterBuild
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class VoterBuild
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(VoterBuild))
         Me.ExcelData = New System.Data.DataSet()
@@ -38,12 +38,15 @@ Partial Class VoterBuild
         Me.DistrictText = New System.Windows.Forms.TextBox()
         Me.SeedLabel = New System.Windows.Forms.Label()
         Me.SeedBox = New System.Windows.Forms.TextBox()
+        Me.VoterTable = New System.Data.DataTable()
         CType(Me.ExcelData, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.VoterTable, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'ExcelData
         '
         Me.ExcelData.DataSetName = "NewDataSet"
+        Me.ExcelData.Tables.AddRange(New System.Data.DataTable() {Me.VoterTable})
         '
         'ProcessButton
         '
@@ -166,6 +169,10 @@ Partial Class VoterBuild
         Me.SeedBox.Size = New System.Drawing.Size(205, 20)
         Me.SeedBox.TabIndex = 13
         '
+        'VoterTable
+        '
+        Me.VoterTable.TableName = "Master Voter List"
+        '
         'VoterBuild
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -191,6 +198,7 @@ Partial Class VoterBuild
         Me.Name = "VoterBuild"
         Me.Text = "Voter Build"
         CType(Me.ExcelData, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.VoterTable, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -211,4 +219,5 @@ Partial Class VoterBuild
     Friend WithEvents DistrictText As TextBox
     Friend WithEvents SeedLabel As Label
     Friend WithEvents SeedBox As TextBox
+    Friend WithEvents VoterTable As DataTable
 End Class

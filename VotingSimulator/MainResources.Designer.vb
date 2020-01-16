@@ -192,5 +192,23 @@ Namespace My.Resources
                 Return ResourceManager.GetString("ClosingMessage", resourceCulture)
             End Get
         End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property ExceldbConnectionString() As String
+            Get
+                Return ResourceManager.GetString("ExceldbConnectionString", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to &quot;C:\Users\NetworkWorkShare\Desktop\Final Data.xlsx.
+        '''</summary>
+        Friend Shared ReadOnly Property ExcelFilePath() As String
+            Get
+                Return ResourceManager.GetString("ExcelFilePath", resourceCulture)
+            End Get
+        End Property
     End Class
 End Namespace
