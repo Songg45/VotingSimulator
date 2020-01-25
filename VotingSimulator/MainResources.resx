@@ -117,16 +117,214 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ClosingMessage" xml:space="preserve">
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Completed1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Completed1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Completed10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Completed10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Completed11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Completed11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Completed12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Completed12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Completed1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Completed1-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Completed2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Completed2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Completed2_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Completed2-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Completed3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Completed3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Completed3ButNot1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Completed3ButNot1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Completed4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Completed4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Completed5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Completed5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Completed5ButNot2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Completed5ButNot2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Completed6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Completed6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Completed7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Completed7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Completed8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Completed8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Completed9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Completed9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainFormClosingMessage" xml:space="preserve">
     <value>Closing Voting Simulator</value>
   </data>
-  <data name="ExceldbConnectionString" xml:space="preserve">
-    <value />
+  <data name="MainFormNameWrong" xml:space="preserve">
+    <value>You must enter a valid name!</value>
   </data>
-  <data name="ExcelFilePath" xml:space="preserve">
-    <value>"C:\Users\NetworkWorkShare\Desktop\Final Data.xlsx</value>
+  <data name="ResultsFormAllDistrictsReporting1" xml:space="preserve">
+    <value>ALL DISTRICTS ARE REPORTING @ </value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ResultsFormAllDistrictsReporting2" xml:space="preserve">
+    <value> THE FINAL TALLY IS: </value>
+  </data>
+  <data name="ResultsFormBallotBlueCast" xml:space="preserve">
+    <value> CASTED BLUE PARTY BALLOT @ </value>
+  </data>
+  <data name="ResultsFormBallotGreenCast" xml:space="preserve">
+    <value> CASTED GREEN PARTY BALLOT @ </value>
+  </data>
+  <data name="ResultsFormBallotPurpleCast" xml:space="preserve">
+    <value> CASTED PURPLE PARTY BALLOT @ </value>
+  </data>
+  <data name="ResultsFormBallotRedCast" xml:space="preserve">
+    <value> CASTED RED PARTY BALLOT @ </value>
+  </data>
+  <data name="ResultsFormBallotYellowCast" xml:space="preserve">
+    <value> CASTED YELLOW PARTY BALLOT @ </value>
+  </data>
+  <data name="ResultsFormBeginButton" xml:space="preserve">
+    <value>VOTING BEGAN @ </value>
+  </data>
+  <data name="ResultsFormDistrict10Complete" xml:space="preserve">
+    <value>DISTRICT 10 HAS COMPLETED VOTING @ </value>
+  </data>
+  <data name="ResultsFormDistrict11Complete" xml:space="preserve">
+    <value>DISTRICT 11 HAS COMPLETED VOTING @ </value>
+  </data>
+  <data name="ResultsFormDistrict12Complete" xml:space="preserve">
+    <value>DISTRICT 12 HAS COMPLETED VOTING @ </value>
+  </data>
+  <data name="ResultsFormDistrict1Complete" xml:space="preserve">
+    <value>DISTRICT 1 HAS COMPLETED VOTING @ </value>
+  </data>
+  <data name="ResultsFormDistrict2Complete" xml:space="preserve">
+    <value>DISTRICT 2 HAS COMPLETED VOTING @ </value>
+  </data>
+  <data name="ResultsFormDistrict3Complete" xml:space="preserve">
+    <value>DISTRICT 3 HAS COMPLETED VOTING @ </value>
+  </data>
+  <data name="ResultsFormDistrict4Complete" xml:space="preserve">
+    <value>DISTRICT 4 HAS COMPLETED VOTING @ </value>
+  </data>
+  <data name="ResultsFormDistrict5Complete" xml:space="preserve">
+    <value>DISTRICT 5 HAS COMPLETED VOTING @ </value>
+  </data>
+  <data name="ResultsFormDistrict6Complete" xml:space="preserve">
+    <value>DISTRICT 6 HAS COMPLETED VOTING @ </value>
+  </data>
+  <data name="ResultsFormDistrict7Complete" xml:space="preserve">
+    <value>DISTRICT 7 HAS COMPLETED VOTING @ </value>
+  </data>
+  <data name="ResultsFormDistrict8Complete" xml:space="preserve">
+    <value>DISTRICT 8 HAS COMPLETED VOTING @ </value>
+  </data>
+  <data name="ResultsFormDistrict9Complete" xml:space="preserve">
+    <value>DISTRICT 9 HAS COMPLETED VOTING @ </value>
+  </data>
+  <data name="ResultsFormFailed" xml:space="preserve">
+    <value>Results Form not ready @ </value>
+  </data>
+  <data name="ResultsFormNoSQLConnection" xml:space="preserve">
+    <value>SQL Connection Failed! Results Form not ready! Check the connection and retry.</value>
+  </data>
+  <data name="ResultsFormProvisionalBlueBallot" xml:space="preserve">
+    <value> CASTED PROVISIONAL BLUE BALLOT @ </value>
+  </data>
+  <data name="ResultsFormProvisionalGreenBallot" xml:space="preserve">
+    <value> CASTED PROVISIONAL GREEN BALLOT @ </value>
+  </data>
+  <data name="ResultsFormProvisionalPurpleBallot" xml:space="preserve">
+    <value> CASTED PROVISIONAL PURPLE BALLOT @ </value>
+  </data>
+  <data name="ResultsFormProvisionalRedBallot" xml:space="preserve">
+    <value> CASTED PROVISIONAL RED BALLOT @ </value>
+  </data>
+  <data name="ResultsFormProvisionalYellowBallot" xml:space="preserve">
+    <value> CASTED PROVISIONAL YELLOW BALLOT @ </value>
+  </data>
+  <data name="ResultsFormSelectByDistrict1" xml:space="preserve">
+    <value>SELECT * FROM VoterSim.VoterList</value>
+  </data>
+  <data name="ResultsFormSelectByDistrict2" xml:space="preserve">
+    <value> WHERE DISTRICT = </value>
+  </data>
+  <data name="ResultsFormStarted" xml:space="preserve">
+    <value>Results Form ready @ </value>
+  </data>
+  <data name="ResultsFormUpdateSQLTable1" xml:space="preserve">
+    <value>UPDATE VoterSim.VoterList</value>
+  </data>
+  <data name="ResultsFormUpdateSQLTable2" xml:space="preserve">
+    <value> with (ROWLOCK) SET [Provisional?] = '</value>
+  </data>
+  <data name="ResultsFormUpdateSQLTable3" xml:space="preserve">
+    <value>', [Party Voted For] = '</value>
+  </data>
+  <data name="ResultsFormUpdateSQLTable4" xml:space="preserve">
+    <value>' WHERE Name = '</value>
+  </data>
+  <data name="ResultsFormUpdateSQLTable5" xml:space="preserve">
+    <value>'</value>
+  </data>
+  <data name="VoterBuildBothFailed" xml:space="preserve">
+    <value>Both load functions failed! Voter Build is NOT ready. Close the form and retry</value>
+  </data>
+  <data name="VoterBuildCancelling" xml:space="preserve">
+    <value>Cancelling Voter Build function</value>
+  </data>
+  <data name="VoterBuildConnectionString" xml:space="preserve">
+    <value>Data Source=SQLSERVER-2012\HOMEVMSQL,49185;Initial Catalog=VotingSimulator;User ID=VSProgram2;Password=Test12345@</value>
+  </data>
+  <data name="VoterBuildCreateTable" xml:space="preserve">
+    <value>SELECT TOP 0 * INTO VoterSim.VoterList</value>
+  </data>
+  <data name="VoterBuildCreateTable2" xml:space="preserve">
+    <value> FROM dbo.MasterVoterList</value>
+  </data>
+  <data name="VoterBuildFinalizeVoterTable" xml:space="preserve">
+    <value>Select * from VoterSim.VoterList</value>
+  </data>
+  <data name="VoterBuildGetVoterTable" xml:space="preserve">
+    <value>Select * from dbo.MasterVoterList</value>
+  </data>
+  <data name="VoterBuildGetVoterTally" xml:space="preserve">
+    <value>Select * from dbo.VoterCount</value>
+  </data>
+  <data name="VoterBuildProcess" xml:space="preserve">
+    <value>Beginning processing of District </value>
+  </data>
+  <data name="VoterBuildResultsFormReady" xml:space="preserve">
+    <value>Results Form is ready for processing</value>
+  </data>
+  <data name="VoterBuildSeedFailed" xml:space="preserve">
+    <value>Determine Seed function failed! Voter Build is NOT ready. Close the form and retry</value>
+  </data>
+  <data name="VoterBuildSQLCompleted" xml:space="preserve">
+    <value>All data written to SQL Server. Results Form READY.</value>
+  </data>
+  <data name="VoterBuildSQLFailed" xml:space="preserve">
+    <value>SQL Connection failed! Voter Build is NOT ready. Close the form and retry</value>
+  </data>
+  <data name="VoterBuildStarting" xml:space="preserve">
+    <value>Starting to build Voter List</value>
+  </data>
+  <data name="VoterBuildWriteFailed" xml:space="preserve">
+    <value>Failed to write DataTable to SQL Server!</value>
+  </data>
+  <data name="VoterBuildWriteToSQL" xml:space="preserve">
+    <value>Writing data to SQL Server</value>
+  </data>
   <data name="_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

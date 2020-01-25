@@ -185,29 +185,639 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend Shared ReadOnly Property Completed1() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Completed1", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend Shared ReadOnly Property Completed1_3() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Completed1_3", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend Shared ReadOnly Property Completed10() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Completed10", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend Shared ReadOnly Property Completed11() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Completed11", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend Shared ReadOnly Property Completed12() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Completed12", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend Shared ReadOnly Property Completed2() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Completed2", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend Shared ReadOnly Property Completed2_5() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Completed2_5", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend Shared ReadOnly Property Completed3() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Completed3", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend Shared ReadOnly Property Completed3ButNot1() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Completed3ButNot1", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend Shared ReadOnly Property Completed4() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Completed4", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend Shared ReadOnly Property Completed5() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Completed5", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend Shared ReadOnly Property Completed5ButNot2() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Completed5ButNot2", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend Shared ReadOnly Property Completed6() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Completed6", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend Shared ReadOnly Property Completed7() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Completed7", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend Shared ReadOnly Property Completed8() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Completed8", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend Shared ReadOnly Property Completed9() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Completed9", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to Closing Voting Simulator.
         '''</summary>
-        Friend Shared ReadOnly Property ClosingMessage() As String
+        Friend Shared ReadOnly Property MainFormClosingMessage() As String
             Get
-                Return ResourceManager.GetString("ClosingMessage", resourceCulture)
+                Return ResourceManager.GetString("MainFormClosingMessage", resourceCulture)
             End Get
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to You must enter a valid name!.
         '''</summary>
-        Friend Shared ReadOnly Property ExceldbConnectionString() As String
+        Friend Shared ReadOnly Property MainFormNameWrong() As String
             Get
-                Return ResourceManager.GetString("ExceldbConnectionString", resourceCulture)
+                Return ResourceManager.GetString("MainFormNameWrong", resourceCulture)
             End Get
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to &quot;C:\Users\NetworkWorkShare\Desktop\Final Data.xlsx.
+        '''  Looks up a localized string similar to ALL DISTRICTS ARE REPORTING @ .
         '''</summary>
-        Friend Shared ReadOnly Property ExcelFilePath() As String
+        Friend Shared ReadOnly Property ResultsFormAllDistrictsReporting1() As String
             Get
-                Return ResourceManager.GetString("ExcelFilePath", resourceCulture)
+                Return ResourceManager.GetString("ResultsFormAllDistrictsReporting1", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to  THE FINAL TALLY IS: .
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormAllDistrictsReporting2() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormAllDistrictsReporting2", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to  CASTED BLUE PARTY BALLOT @ .
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormBallotBlueCast() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormBallotBlueCast", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to  CASTED GREEN PARTY BALLOT @ .
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormBallotGreenCast() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormBallotGreenCast", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to  CASTED PURPLE PARTY BALLOT @ .
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormBallotPurpleCast() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormBallotPurpleCast", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to  CASTED RED PARTY BALLOT @ .
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormBallotRedCast() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormBallotRedCast", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to  CASTED YELLOW PARTY BALLOT @ .
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormBallotYellowCast() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormBallotYellowCast", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to VOTING BEGAN @ .
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormBeginButton() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormBeginButton", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to DISTRICT 10 HAS COMPLETED VOTING @ .
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormDistrict10Complete() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormDistrict10Complete", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to DISTRICT 11 HAS COMPLETED VOTING @ .
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormDistrict11Complete() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormDistrict11Complete", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to DISTRICT 12 HAS COMPLETED VOTING @ .
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormDistrict12Complete() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormDistrict12Complete", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to DISTRICT 1 HAS COMPLETED VOTING @ .
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormDistrict1Complete() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormDistrict1Complete", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to DISTRICT 2 HAS COMPLETED VOTING @ .
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormDistrict2Complete() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormDistrict2Complete", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to DISTRICT 3 HAS COMPLETED VOTING @ .
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormDistrict3Complete() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormDistrict3Complete", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to DISTRICT 4 HAS COMPLETED VOTING @ .
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormDistrict4Complete() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormDistrict4Complete", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to DISTRICT 5 HAS COMPLETED VOTING @ .
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormDistrict5Complete() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormDistrict5Complete", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to DISTRICT 6 HAS COMPLETED VOTING @ .
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormDistrict6Complete() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormDistrict6Complete", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to DISTRICT 7 HAS COMPLETED VOTING @ .
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormDistrict7Complete() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormDistrict7Complete", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to DISTRICT 8 HAS COMPLETED VOTING @ .
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormDistrict8Complete() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormDistrict8Complete", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to DISTRICT 9 HAS COMPLETED VOTING @ .
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormDistrict9Complete() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormDistrict9Complete", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Results Form not ready @ .
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormFailed() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormFailed", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to SQL Connection Failed! Results Form not ready! Check the connection and retry..
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormNoSQLConnection() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormNoSQLConnection", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to  CASTED PROVISIONAL BLUE BALLOT @ .
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormProvisionalBlueBallot() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormProvisionalBlueBallot", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to  CASTED PROVISIONAL GREEN BALLOT @ .
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormProvisionalGreenBallot() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormProvisionalGreenBallot", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to  CASTED PROVISIONAL PURPLE BALLOT @ .
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormProvisionalPurpleBallot() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormProvisionalPurpleBallot", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to  CASTED PROVISIONAL RED BALLOT @ .
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormProvisionalRedBallot() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormProvisionalRedBallot", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to  CASTED PROVISIONAL YELLOW BALLOT @ .
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormProvisionalYellowBallot() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormProvisionalYellowBallot", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to SELECT * FROM VoterSim.VoterList.
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormSelectByDistrict1() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormSelectByDistrict1", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to  WHERE DISTRICT = .
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormSelectByDistrict2() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormSelectByDistrict2", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Results Form ready @ .
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormStarted() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormStarted", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to UPDATE VoterSim.VoterList.
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormUpdateSQLTable1() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormUpdateSQLTable1", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to  with (ROWLOCK) SET [Provisional?] = &apos;.
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormUpdateSQLTable2() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormUpdateSQLTable2", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to &apos;, [Party Voted For] = &apos;.
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormUpdateSQLTable3() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormUpdateSQLTable3", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to &apos; WHERE Name = &apos;.
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormUpdateSQLTable4() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormUpdateSQLTable4", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to &apos;.
+        '''</summary>
+        Friend Shared ReadOnly Property ResultsFormUpdateSQLTable5() As String
+            Get
+                Return ResourceManager.GetString("ResultsFormUpdateSQLTable5", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Both load functions failed! Voter Build is NOT ready. Close the form and retry.
+        '''</summary>
+        Friend Shared ReadOnly Property VoterBuildBothFailed() As String
+            Get
+                Return ResourceManager.GetString("VoterBuildBothFailed", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Cancelling Voter Build function.
+        '''</summary>
+        Friend Shared ReadOnly Property VoterBuildCancelling() As String
+            Get
+                Return ResourceManager.GetString("VoterBuildCancelling", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Data Source=SQLSERVER-2012\HOMEVMSQL,49185;Initial Catalog=VotingSimulator;User ID=VSProgram2;Password=Test12345@.
+        '''</summary>
+        Friend Shared ReadOnly Property VoterBuildConnectionString() As String
+            Get
+                Return ResourceManager.GetString("VoterBuildConnectionString", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to SELECT TOP 0 * INTO VoterSim.VoterList.
+        '''</summary>
+        Friend Shared ReadOnly Property VoterBuildCreateTable() As String
+            Get
+                Return ResourceManager.GetString("VoterBuildCreateTable", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to  FROM dbo.MasterVoterList.
+        '''</summary>
+        Friend Shared ReadOnly Property VoterBuildCreateTable2() As String
+            Get
+                Return ResourceManager.GetString("VoterBuildCreateTable2", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Select * from VoterSim.VoterList.
+        '''</summary>
+        Friend Shared ReadOnly Property VoterBuildFinalizeVoterTable() As String
+            Get
+                Return ResourceManager.GetString("VoterBuildFinalizeVoterTable", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Select * from dbo.MasterVoterList.
+        '''</summary>
+        Friend Shared ReadOnly Property VoterBuildGetVoterTable() As String
+            Get
+                Return ResourceManager.GetString("VoterBuildGetVoterTable", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Select * from dbo.VoterCount.
+        '''</summary>
+        Friend Shared ReadOnly Property VoterBuildGetVoterTally() As String
+            Get
+                Return ResourceManager.GetString("VoterBuildGetVoterTally", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Beginning processing of District .
+        '''</summary>
+        Friend Shared ReadOnly Property VoterBuildProcess() As String
+            Get
+                Return ResourceManager.GetString("VoterBuildProcess", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Results Form is ready for processing.
+        '''</summary>
+        Friend Shared ReadOnly Property VoterBuildResultsFormReady() As String
+            Get
+                Return ResourceManager.GetString("VoterBuildResultsFormReady", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Determine Seed function failed! Voter Build is NOT ready. Close the form and retry.
+        '''</summary>
+        Friend Shared ReadOnly Property VoterBuildSeedFailed() As String
+            Get
+                Return ResourceManager.GetString("VoterBuildSeedFailed", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to All data written to SQL Server. Results Form READY..
+        '''</summary>
+        Friend Shared ReadOnly Property VoterBuildSQLCompleted() As String
+            Get
+                Return ResourceManager.GetString("VoterBuildSQLCompleted", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to SQL Connection failed! Voter Build is NOT ready. Close the form and retry.
+        '''</summary>
+        Friend Shared ReadOnly Property VoterBuildSQLFailed() As String
+            Get
+                Return ResourceManager.GetString("VoterBuildSQLFailed", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Starting to build Voter List.
+        '''</summary>
+        Friend Shared ReadOnly Property VoterBuildStarting() As String
+            Get
+                Return ResourceManager.GetString("VoterBuildStarting", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Failed to write DataTable to SQL Server!.
+        '''</summary>
+        Friend Shared ReadOnly Property VoterBuildWriteFailed() As String
+            Get
+                Return ResourceManager.GetString("VoterBuildWriteFailed", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Writing data to SQL Server.
+        '''</summary>
+        Friend Shared ReadOnly Property VoterBuildWriteToSQL() As String
+            Get
+                Return ResourceManager.GetString("VoterBuildWriteToSQL", resourceCulture)
             End Get
         End Property
     End Class

@@ -94,6 +94,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -115,10 +116,20 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GlobalSuppressions.vb" />
     <Compile Include="MainResources.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>MainResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SelectParty.vb" />
+    <Compile Include="SQLInteraction.vb" />
+    <Compile Include="SeedInteraction.vb" />
+    <Compile Include="VoterBuildModule.vb" />
+    <Compile Include="My Project\DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
     </Compile>
     <Compile Include="Results.Designer.vb">
       <DependentUpon>Results.vb</DependentUpon>
@@ -131,12 +142,6 @@
     </Compile>
     <Compile Include="MainForm.Designer.vb">
       <DependentUpon>MainForm.vb</DependentUpon>
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="VoterBuild.Designer.vb">
-      <DependentUpon>VoterBuild.vb</DependentUpon>
-    </Compile>
-    <Compile Include="VoterBuild.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -167,9 +172,6 @@
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="VoterBuild.resx">
-      <DependentUpon>VoterBuild.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -178,9 +180,21 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include=".editorconfig" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
     </None>
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -235,6 +249,54 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Completed1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Completed2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Completed3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Completed4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Completed5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Completed6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Completed7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Completed8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Completed9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Completed10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Completed11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Completed12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Completed3ButNot1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Completed5ButNot2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Completed1-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Completed2-5.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -1,0 +1,4 @@
+﻿[*.vb]
+
+# CA1305: Specify IFormatProvider
+dotnet_diagnostic.CA1305.severity = none
